@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="all">
+  <link href="/fonts/stylesheet.css?v=1.0.1" rel="stylesheet" media="all">
+  <link href="/css/slick.min.css?v=1.0.1" rel="stylesheet" media="all">
+  <link href="/css/style.css?v=1.0.4" rel="stylesheet" media="all">
+  <link href="/css/media.css?v=1.0.4" rel="stylesheet" media="all">
+</head>
+
+<body id="#top">
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light es-navbar" id="mainNavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img alt="Bal" src="./img/logo-white.png">
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto main-menu">
+            <li class="nav-item">
+              <a class="lang nav-link" href="#" key="Home"></a>
+            </li>
+            <li class="nav-item">
+              <a class="lang nav-link" href="#about" key="About"></a>
+            </li>
+            <li class="nav-item">
+              <a class="lang nav-link" href="#footer" key="Contact"></a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown es-lang-dropdown">
+                <a aria-expanded="false" class="lang dropdown-toggle" data-toggle="dropdown" href="#" id="langDropdown" role="button" key="Language-drp"></a>
+                <div aria-labelledby="langDropdown" class="dropdown-menu">
+                  <a class="lang dropdown-item translate active" id="ru" key="Russian" ></a>
+                  <a class="lang dropdown-item translate" id="uz" key="Uzbek"></a>
+                  <a class="lang dropdown-item translate" id="en" key="English"></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="d-sm-block d-md-none">
+          <div class="dropdown es-lang-dropdown">
+            <a aria-expanded="false" class="lang dropdown-toggle" data-toggle="dropdown" href="#" id="langDropdown"
+              role="button" key="Language-drp"></a>
+              <div aria-labelledby="langDropdown" class="dropdown-menu">
+                <a class="lang dropdown-item translate active" id="ru" key="Russian" ></a>
+                <a class="lang dropdown-item translate" id="uz" key="Uzbek"></a>
+                <a class="lang dropdown-item translate" id="en" key="English"></a>
+              </div>
+          </div>
+          <a class="es-hamburger" data-target="#menuModal" data-toggle="modal" href="#">
+            <img alt="Menu" src="/img/ic_hamburger.svg">
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="carousel-section">
+      <div class="main-carousel">
+        <div class="carousel slide carousel-fade" data-ride="carousel" id="mainCarousel">
+          <ol class="carousel-indicators">
+            <li data-target="#mainCarousel" data-slide-to="0" class=" "></li>
+            <li data-target="#mainCarousel" data-slide-to="1" class=" "></li>
+            <li data-target="#mainCarousel" data-slide-to="2" class=" "></li>
+            <li data-target="#mainCarousel" data-slide-to="3" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="lazy img-fluid w-100" src="./img/banner1.webp" alt="">
+              <div class="carousel-backdrop">
+                <div class="lang carousel-title">HELPING HEALTHCARE WITH INNOVATION</div>
+                <div class="lang carousel-info">Medical films for precise diagnostics</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="lazy img-fluid w-100" src="./img/banner2.webp" alt="">
+              <div class="carousel-backdrop">
+                <div class="lang carousel-title">
+                  accurate <br>
+                  measures. <br>
+                  achieved.
+                </div>
+                <div class="lang carousel-info">Поэтому начинайте с десерта</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="lazy img-fluid w-100" src="./img/banner3.webp" alt="">
+              <div class="carousel-backdrop">
+                <div class="lang carousel-title">Хлеб в BREADLY - это стандарт качества!</div>
+                <div class="lang carousel-info">
+                  Мы внимательно следим за всем процессом изготовления и всегда слушаем ваши комментарии. <br> Нам важно
+                  знать ваше мнение.
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" data-slide="prev" data-target="#mainCarousel" type="button">
+            <span><img src="/img/ic_left_white.svg"></span>
+          </button>
+          <button class="carousel-control-next" data-slide="next" data-target="#mainCarousel" type="button">
+            <span><img src="/img/ic_right_white.svg"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="es-page-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="es-page-content">
+                <h2 class="lang es-page-subtitle" key="About_bal"></h2>
+                <div class="lang es-page-text" key="About_info"></div>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+        <div class="es-row-img es-right">
+          <img src="./img/about.webp" loading="lazy">
+        </div>
+      </div>
+    </section>
+    <section class="es-about-section">
+      <div class="es-page-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <div class="es-page-content">
+                <h2 class="lang es-page-subtitle" key="Say_about_bal"></h2>
+                <div class="lang es-page-text-dr" key="Say_about_bal_info">
+                </div>
+                <div class="lang es-page-text-dr-position" key="Say_about_bal_dr"></div>
+                <div class="lang es-page-text-dr-position" key="Say_about_bal_dr_position"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lang es-row-img es-left">
+          <img src="./img/doctor.webp" loading="lazy">
+        </div>
+      </div>
+    </section>
+    <section class="es-client-section">
+      <div class="container">
+        <h2 class="lang es-section-title" key="Our_clients"></h2>
+        <img src="./img/partners.webp" class="img-fluid w-100 es-partners-img" alt="">
+      </div>
+    </section>
+    <section class="es-service-section" id="services">
+      <div class="container">
+        <h2 class="lang es-section-title" key="Services"></h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="es-service-img">
+              <img src="img/ic_services1.svg" alt="">
+            </div>
+            <div class="lang es-service-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste quo voluptatem omnis iure. Quod
+              excepturi nesciunt officiis minima perspiciatis?
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="es-service-img">
+              <img class="img-fluid" src="img/ic_services2.svg" alt="">
+            </div>
+            <div class="lang es-service-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste quo voluptatem omnis iure. Quod
+              excepturi nesciunt officiis minima perspiciatis?
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="es-service-img">
+              <img class="img-fluid" src="img/ic_services2.svg" alt="">
+            </div>
+            <div class="lang es-service-desc mb-0">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste quo voluptatem omnis iure. Quod
+              excepturi nesciunt officiis minima perspiciatis?
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="es-footer-container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="es-footer-logo">
+              <a href="#">
+                <img alt="Bal" src="./img/logo-white.png">
+              </a>
+            </div>
+            <div class="es-footer-socials">
+              <a href="#">
+                <img src="img/ic_facebook.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="img/ic_instagram.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="img/ic_telegram.svg" alt="">
+              </a>
+              <a href = "mailto: info@bal.uz">
+                <img src="img/ic_email.svg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="lang es-footer-title" key="Menu"></div>
+            <ul class="es-footer-list">
+              <li>
+                <a class="lang" href="#" key="Home"></a>
+              </li>
+              <li>
+                <a class="lang" href="#about" key="About"></a>
+              </li>
+              <li>
+                <a class="lang" href="#services" key="Services"></a>
+              </li>
+              <li>
+                <a class="lang" href="#footer" key="Contact"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <div class="lang es-footer-title" key="Hours_of_operation"></div>
+            <div class="es-footer-working-h">
+              <div class="lang" key="Mon_thu"></div>
+              <div class="lang" key="Friday"></div>
+              <div class="lang" key="Sat_sun"></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="lang es-footer-cc" key="Contact_us"></div>
+            <div class="es-footer-number">
+              <a href="tel:998945550505">+99894 555 0505</a>
+            </div>
+            <div class="lang es-branch" key="Office"></div>
+            <div class="lang es-branch-address mb-3">
+              <p class="lang" key="Street"></p>
+              <p class="lang" key="City"></p>
+              <p class="lang" key="Country"></p>
+            </div>
+            <div class="lang es-branch" key="Manufacturing"></div>
+            <div class="lang es-branch-address">
+              <p class="lang" key="Street_m"></p>
+              <p class="lang" key="City_m"></p>
+              <p class="lang" key="Country"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="es-footer-bottom">
+        <div class="lang es-footer-copyright">2023 BAL®</div>
+        <div class="lang es-footer-developer" key="Website_developed_by">
+          <a href="https://exord.uz" class="lang" key="Developer"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Tabs -->
+  <div class="modal fade menu-modal" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-full">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="navbar-brand" href="/">
+            <img alt="Bal" src="./img/logo-white.png">
+          </a>
+          <button class="btn btn-icon" type="button" data-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.55708 20.4C4.31209 20.4 4.0671 20.3062 3.87953 20.1206C3.5063 19.7474 3.5063 19.1407 3.87953 18.7675L18.7665 3.88182C19.1397 3.50862 19.7465 3.50862 20.1197 3.88182C20.4929 4.25501 20.4929 4.86169 20.1197 5.23489L5.23272 20.1206C5.04706 20.3062 4.80207 20.4 4.55708 20.4Z"
+                fill="black" />
+              <path
+                d="M19.4441 20.4C19.1991 20.4 18.9541 20.3062 18.7665 20.1206L3.87953 5.23297C3.5063 4.85978 3.5063 4.2531 3.87953 3.8799C4.25276 3.50671 4.85949 3.50671 5.23272 3.8799L20.1197 18.7656C20.4929 19.1388 20.4929 19.7455 20.1197 20.1187C19.934 20.3062 19.689 20.4 19.4441 20.4Z"
+                fill="black" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="nav flex-column align-items-center">
+            <li class="nav-item">
+              <a href="#" class="lang nav-link" key="Home"></a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="lang nav-link"  key="About"></a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="lang nav-link"  key="Services"></a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="lang nav-link"  key="Contact"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-nav d-lg-none">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path
+              d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
+          </svg>
+          <span class="lang" key="Home"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class=" nav-link" href="#about">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z" />
+          </svg>
+          <span class="lang" key="About"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z" />
+          </svg>
+          <span class="lang" key="Services"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
+          </svg>
+          <span class="lang" key="Contact"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <a href="#top" id="back-top">
+    <img alt="To Top" src="/img/top_ic.svg" />
+  </a>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/poper.min.js"></script>
+  <script src="/js/bootstrap.min.js" async></script>
+  <script src="/js/slick.min.js"></script>
+  <script src="/js/jquery.inputmask.bundle.js"></script>
+  <script src="/js/sweet.alert.min.js"></script>
+  <script src="/js/app.js?v=1.0.4"></script>
+</body>
+
+</html>

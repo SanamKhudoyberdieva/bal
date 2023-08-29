@@ -1,0 +1,126 @@
+@media only screen and (max-width: 653px) {
+    .es-navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand img {
+        height: 2.5rem;
+    }
+
+    .es-lang-dropdown .dropdown-toggle {
+        color: #ffffff;
+    }
+
+    .carousel-backdrop {
+        padding: 1rem;
+    }
+
+    .carousel-title {
+        font-size: 1.875rem;
+    }
+
+    .carousel-info {
+        margin-bottom: 0rem;
+    }
+
+    .main-carousel .carousel .carousel-item img {
+        height: 550px;
+        max-width: fit-content;
+        width: auto !important;
+    }
+
+    .main-carousel .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+
+    .es-row-img {
+        position: relative;
+        width: 100%;
+    }
+
+    .es-page-row {
+        padding: 0;
+    }
+
+    .es-page-content {
+        padding: 2rem 0;
+    }
+
+    .es-section-title {
+        font-size: 32px;
+    }
+
+    .es-section-title,
+    .es-footer-copyright {
+        margin-bottom: 1rem;
+    }
+
+    .es-page-subtitle {
+        font-size: 1.75rem;
+        margin-bottom: 15px;
+    }
+
+    .es-page-text {
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .es-page-text-dr {
+        font-style: italic;
+        line-height: 30px;
+        font-weight: 400;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .es-page-text-dr-position {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .es-footer-container {
+        padding: 3rem 0;
+    }
+
+    .es-footer-socials,
+    .es-footer-list {
+        margin-bottom: 3rem;
+    }
+
+    .es-footer-cc {
+        text-align: start;
+        font-size: 1.25rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .es-footer-number {
+        justify-content: start;
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+
+    .es-branch,
+    .es-branch-address {
+        text-align: start;
+    }
+
+    .es-footer-bottom {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .es-service-section,
+    .es-about-section {
+        padding-bottom: 2rem;
+    }
+
+    .es-client-section {
+        padding-bottom: 1rem;
+    }
+    .es-service-desc {
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    
+}
